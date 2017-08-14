@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>footer_icon_fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.25">
+        <g id="footer" transform="translate(-1265.000000, -72.000000)" fill="#141433">
+            <g id="Group-25">
+                <g id="Group-27" transform="translate(45.000000, 40.000000)">
+                    <g id="Group-46">
+                        <g id="Group-3">
+                            <g id="Group-35">
+                                <g id="Group-32-Copy-3" transform="translate(1085.000000, 0.000000)">
+                                    <path d="M140,32 L160,32 C162.761424,32 165,34.2385763 165,37 L165,57 C165,59.7614237 162.761424,62 160,62 L140,62 C137.238576,62 135,59.7614237 135,57 L135,37 L135,37 C135,34.2385763 137.238576,32 140,32 L140,32 Z M151.063472,55.3196729 L151.063472,47.158881 L153.316207,47.158881 L153.614744,44.3466269 L151.063472,44.3466269 L151.067299,42.9390667 C151.067299,42.2055875 151.13699,41.8125726 152.190478,41.8125726 L153.598796,41.8125726 L153.598796,39 L151.345742,39 C148.639461,39 147.68692,40.3642458 147.68692,42.6584782 L147.68692,44.3469454 L146,44.3469454 L146,47.1591995 L147.68692,47.1591995 L147.68692,55.3196729 L151.063472,55.3196729 Z" id="footer_icon_fb"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

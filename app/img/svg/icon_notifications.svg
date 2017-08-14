@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="24px" viewBox="0 0 22 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_notifications</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="header" transform="translate(-1248.000000, -19.000000)" fill-rule="nonzero" fill="#3A3958">
+            <g id="Group-31">
+                <g id="Group-24" transform="translate(1247.000000, 19.000000)">
+                    <path d="M16,20 C16,22.209139 14.209139,24 12,24 C9.790861,24 8,22.209139 8,20 L3.53238076,20 C2.42781126,20 1.53238076,19.1045695 1.53238076,18 C1.53238076,17.6375121 1.63089642,17.2818393 1.81739491,16.9710085 L3,15 L3,9 C3,4.02943725 7.02943725,9.1311507e-16 12,0 C16.9705627,-9.1311507e-16 21,4.02943725 21,9 L21,15 L22.1826051,16.9710085 C22.7509014,17.918169 22.4437713,19.1466895 21.4966108,19.7149859 C21.1857799,19.9014843 20.8301071,20 20.4676192,20 L16,20 Z M12,2 C8.13400675,2 5,5.13400675 5,9 L5,15.5539679 L3.53238076,18 L20.4676192,18 L19,15.5539679 L19,9 C19,5.13400675 15.8659932,2 12,2 Z M12,22 C13.1045695,22 14,21.1045695 14,20 L10,20 C10,21.1045695 10.8954305,22 12,22 Z" id="icon_notifications"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

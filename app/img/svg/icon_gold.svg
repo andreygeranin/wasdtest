@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_gold</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wow_raids_chat" transform="translate(-30.000000, -414.000000)" fill-rule="nonzero" fill="#CDCFE2">
+            <g id="Group-18-Copy-2" transform="translate(0.000000, -1.000000)">
+                <g id="Group-25" transform="translate(0.000000, 60.000000)">
+                    <g id="Group-6" transform="translate(0.000000, 171.000000)">
+                        <g id="Group-44" transform="translate(30.000000, 184.000000)">
+                            <path d="M11,22 C4.92486775,22 0,17.0751322 0,11 C0,4.92486775 4.92486775,0 11,0 C17.0751322,0 22,4.92486775 22,11 C22,17.0751322 17.0751322,22 11,22 Z M11,20 C15.9705627,20 20,15.9705627 20,11 C20,6.02943725 15.9705627,2 11,2 C6.02943725,2 2,6.02943725 2,11 C2,15.9705627 6.02943725,20 11,20 Z M11,17 C7.6862915,17 5,14.3137085 5,11 C5,7.6862915 7.6862915,5 11,5 C14.3137085,5 17,7.6862915 17,11 C17,14.3137085 14.3137085,17 11,17 Z M11,15 C13.209139,15 15,13.209139 15,11 C15,8.790861 13.209139,7 11,7 C8.790861,7 7,8.790861 7,11 C7,13.209139 8.790861,15 11,15 Z" id="icon_gold"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

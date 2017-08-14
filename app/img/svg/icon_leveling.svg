@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_leveling</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wow_raids_chat" transform="translate(-30.000000, -526.000000)" fill-rule="nonzero" fill="#CDCFE2">
+            <g id="Group-18-Copy-2" transform="translate(0.000000, -1.000000)">
+                <g id="Group-25" transform="translate(0.000000, 60.000000)">
+                    <g id="Group-6" transform="translate(0.000000, 171.000000)">
+                        <g id="Group-30-Copy-2" transform="translate(30.000000, 296.000000)">
+                            <path d="M11,22 C4.92486775,22 0,17.0751322 0,11 C0,4.92486775 4.92486775,0 11,0 C17.0751322,0 22,4.92486775 22,11 C22,17.0751322 17.0751322,22 11,22 Z M11,20 C15.9705627,20 20,15.9705627 20,11 C20,6.02943725 15.9705627,2 11,2 C6.02943725,2 2,6.02943725 2,11 C2,15.9705627 6.02943725,20 11,20 Z M12.0887331,17.0978892 C12.0383815,17.6097915 11.6079084,18 11.0935358,18 L10.9170539,18 C10.3982475,18 9.96560204,17.6032408 9.92079102,17.0863733 L9.92079102,17.0863733 L9.24511719,9.29289322 L6.70710678,10.7071068 C5.76429774,11.6499158 4.35008418,10.2357023 5.29289322,9.29289322 L10.2928932,4.29289322 C10.6834175,3.90236893 11.3165825,3.90236893 11.7071068,4.29289322 L16.7071068,9.29289322 C17.6499158,10.2357023 16.2357023,11.6499158 15.2928932,10.7071068 L12.8564453,9.29289322 L12.0887331,17.0978892 Z" id="icon_leveling"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

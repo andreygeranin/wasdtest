@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Заголовок</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
+	<style></style>
+
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load CSS Start -->
+	<script>loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/header.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load CSS End -->
+
+	<!-- Load CSS Compiled without JS -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="wrapper__column wrapper__column--left">
+					<a href="#" class="header__logo flex__vertical"><img src="img/logo.svg" alt="" class="header__img"></a>
+				</div>
+				<div class="wrapper__column wrapper__column--right">
+					<div class="container container--column">
+						<ul class="header__breadcrumbs">
+							<li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Home</a></li>
+							<li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">World of Warcraft</a></li>
+							<li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Raids</a></li>
+						</ul>
+						<div class="header__search">
+							<form action="" class="search__form">
+								<input type="search" name="search" value="Search for anything..." id="search" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+							</form>
+						</div>
+						<ul class="header__buttons">
+							<li class="header__buttons-item">
+								<a href="#" class="header__buttons-link">
+									<img src="img/svg/icon_notifications.svg" alt="" class="header__buttons-img">
+								</a>
+							</li>
+							<li class="header__buttons-item">
+								<a href="#" class="header__buttons-link">
+									<img src="img/svg/icon_offers.svg" alt="" class="header__buttons-img">
+								</a>
+							</li>
+							<li class="header__buttons-item">
+								<a href="#" class="header__buttons-link">
+									<img src="img/svg/icon_settings.svg" alt="" class="header__buttons-img">
+								</a>
+							</li>
+						</ul>
+						<div class="header__profile">
+							<a href="#" class="profile__link"><img src="img/profile.jpeg" alt="" class="profile__img"><span class="profile__name">Buyername1337</span><span class="profile__dropdown-icon"><img src="img/svg/arrow_dropdown.svg" alt=""></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="main__page">
+		<div class="container">
+			<div class="wrapper__column wrapper__column--left">
+				<ul class="page__mnu">
+					<li class="mnu__item mnu__item--wow"><a href="#" class="mnu__link">
+						<img src="img/svg/icon_wow.svg" alt="" class="mnu__img mnu__inline"><span class="mnu__inline">World of Warcraft EU</span>
+					</a></li>
+
+					<li class="mnu__item mnu__item--btn"><button class="btn btn--create">Create new offer</button></li>
+
+					<li class="mnu__item mnu__item--margin">
+						<a href="#" class="mnu__link mnu__link--lilo">
+							<span class="mnu__img-container mnu__inline"><img src="img/svg/icon_raids.svg" alt="" class="mnu__img"></span><span class="mnu__inline">Raids</span>
+					</a></li>
+					<li class="mnu__item mnu__item--margin">
+						<a href="#" class="mnu__link">
+							<span class="mnu__img-container mnu__inline"><img src="img/svg/icon_dungeons.svg" alt="" class="mnu__img"></span><span class="mnu__inline">Dungeons</span>
+					</a></li>
+					<li class="mnu__item mnu__item--margin">
+						<a href="#" class="mnu__link">
+							<span class="mnu__img-container mnu__inline"><img src="img/svg/icon_achievements.svg" alt="" class="mnu__img"></span><span class="mnu__inline">Achievements</span>
+					</a></li>
+					<li class="mnu__item mnu__item--margin">
+						<a href="#" class="mnu__link">
+							<span class="mnu__img-container mnu__inline"><img src="img/svg/icon_gold.svg" alt="" class="mnu__img mnu__inline"></span><span class="mnu__inline">Gold</span>
+					</a></li>
+					<li class="mnu__item mnu__item--margin">
+						<a href="#" class="mnu__link">
+							<span class="mnu__img-container mnu__inline"><img src="img/svg/icon_battlegrounds.svg" alt="" class="mnu__img"></span><span class="mnu__inline">Battlegrounds</span>
+					</a></li>
+					<li class="mnu__item mnu__item--margin">
+						<a href="#" class="mnu__link">
+							<span class="mnu__img-container mnu__inline"><img src="img/svg/icon_leveling.svg" alt="" class="mnu__img"></span><span class="mnu__inline">Leveling</span>
+					</a></li>
+					<li class="mnu__item mnu__item--margin">
+						<a href="#" class="mnu__link">
+							<span class="mnu__img-container mnu__inline"><img src="img/svg/icon_arena.svg" alt="" class="mnu__img"></span><span class="mnu__inline">Arena</span>
+					</a></li>
+					<li class="mnu__item mnu__item--margin">
+						<a href="#" class="mnu__link">
+							<span class="mnu__img-container mnu__inline"><img src="img/svg/icon_quests.svg" alt="" class="mnu__img"></span><span class="mnu__inline">Quests</span>
+					</a></li>
+					<li class="mnu__item mnu__item--margin">
+						<a href="#" class="mnu__link">
+							<span class="mnu__img-container mnu__inline"><img src="img/svg/icon_items.svg" alt="" class="mnu__img"></span><span class="mnu__inline">Items</span>
+					</a></li>
+					<li class="mnu__item mnu__item--margin">
+						<a href="#" class="mnu__link">
+							<span class="mnu__img-container mnu__inline"><img src="img/svg/icon_other.svg" alt="" class="mnu__img"></span><span class="mnu__inline">Other</span>
+					</a></li>
+				</ul>
+			</div>
+			<div class="wrapper__column wrapper__column--right">
+				<div class="page__content">
+					<div class="container--stable">
+						<h2 class="page__heading">World of Warcraft Raids</h2>
+						<ul class="content__filter">
+							<li class="filter__item">
+								<div class="select--custom">
+									<select name="" class="filter__btn filter__select">
+										<option value="">Tomb of Sargeras</option>
+									</select>
+								</div>
+							</li>
+							<li class="filter__item">
+								<div class="select--custom">
+									<select name="" class="filter__btn filter__select">
+										<option value="">Mythic</option>
+									</select>
+								</div>
+							</li>
+							<li class="filter__item">
+								<div class="select--custom">
+									<select name="" class="filter__btn filter__select">
+										<option value="">Thermaplugg</option>
+									</select>
+								</div>
+							</li>
+							<li class="filter__item filter__item--today">
+								<button class="filter__btn">Today</button>
+							</li>
+							<li class="filter__item filter__item--roll">
+								<button class="filter__btn"><img class="filter__img" src="img/svg/icon_dice.svg" alt=""><span>Roll preferences</span></button>
+							</li>
+						</ul>
+						<div class="content__sort">
+							<div class="sort__left">
+								<div class="sort__item">
+									<div class="select--custom">
+										<label for="sort__self">Self-play</label>
+										<select name="sort__self">
+											<option value="">Any</option>
+											<option value="">Option2</option>
+										</select>
+									</div>
+								</div>
+								<div class="sort__item">
+									<div class="select--custom">
+										<label for="sort__loot">Loot</label>
+										<select name="sort__loot">
+											<option value="">Any</option>
+											<option value="">Option2</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="sort__right">
+								<div class="sort__item">
+									<div class="select--custom">
+										<label for="sort__by">Sort by</label>
+										<select name="sort__by">
+											<option value="">Price and rating</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="content__posts">
+							<a href="#" class="post__item">
+								<div class="post__name">
+									<h4>ToS Mythic Lootrun by top10 Guild</h4>
+									<span class="post__mode post__mode--sp">SP</span>
+									<span class="post__mode post__mode--ml">ML</span>
+								</div>
+								<div class="post__date">
+									<p>Jan 23, 11:00</p>
+								</div>
+								<div class="post__rate">
+									<div class="post__rate-container">
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--half">
+											<div class="circle__halt--left"></div>
+											<div class="circle__halt--right"></div>
+										</span>
+										<span class="rate__circle rate__circle--empty"></span>
+										<span class="rate__count">(42)</span>
+									</div>
+								</div>
+								<div class="post__profile">
+									<span><img class="post__profile-img" src="img/post-profile.jpeg" alt=""></span>
+									<p class="post__profile-name">antonPVPgod2007</p>
+								</div>
+								<div class="post__price">
+									<p class="post__price-cost">€1,221</p>
+								</div>
+							</a>
+
+
+							<a href="#" class="post__item">
+								<div class="post__name">
+									<h4>ToS Mythic Lootrun by top10 Guild</h4>
+									<span class="post__mode post__mode--sp">SP</span>
+									<span class="post__mode post__mode--ml">ML</span>
+								</div>
+								<div class="post__date">
+									<p>Jan 23, 11:00</p>
+								</div>
+								<div class="post__rate">
+									<div class="post__rate-container">
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--half">
+											<div class="circle__halt--left"></div>
+											<div class="circle__halt--right"></div>
+										</span>
+										<span class="rate__circle rate__circle--empty"></span>
+										<span class="rate__count">(42)</span>
+									</div>
+								</div>
+								<div class="post__profile">
+									<span><img class="post__profile-img" src="img/post-profile.jpeg" alt=""></span>
+									<p class="post__profile-name">antonPVPgod2007</p>
+								</div>
+								<div class="post__price">
+									<p class="post__price-cost">€1,221</p>
+								</div>
+							</a>
+
+							<a href="#" class="post__item">
+								<div class="post__name">
+									<h4>ToS Mythic Lootrun by top10 Guild</h4>
+									<span class="post__mode post__mode--ml">ML</span>
+								</div>
+								<div class="post__date">
+									<p>Jan 23, 11:00</p>
+								</div>
+								<div class="post__rate">
+									<div class="post__rate-container">
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--half">
+											<div class="circle__halt--left"></div>
+											<div class="circle__halt--right"></div>
+										</span>
+										<span class="rate__circle rate__circle--empty"></span>
+										<span class="rate__count">(42)</span>
+									</div>
+								</div>
+								<div class="post__profile">
+									<span><img class="post__profile-img" src="img/post-profile.jpeg" alt=""></span>
+									<p class="post__profile-name">antonPVPgod2007</p>
+								</div>
+								<div class="post__price">
+									<p class="post__price-cost">€1,221</p>
+								</div>
+							</a>
+
+							<a href="#" class="post__item">
+								<div class="post__name">
+									<h4>ToS Mythic Lootrun by top10 Guild</h4>
+									<span class="post__mode post__mode--sp">SP</span>
+								</div>
+								<div class="post__date">
+									<p>Jan 23, 11:00</p>
+								</div>
+								<div class="post__rate">
+									<div class="post__rate-container">
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--half">
+											<div class="circle__halt--left"></div>
+											<div class="circle__halt--right"></div>
+										</span>
+										<span class="rate__circle rate__circle--empty"></span>
+										<span class="rate__count">(42)</span>
+									</div>
+								</div>
+								<div class="post__profile">
+									<span><img class="post__profile-img" src="img/post-profile.jpeg" alt=""></span>
+									<p class="post__profile-name">antonPVPgod2007</p>
+								</div>
+								<div class="post__price">
+									<p class="post__price-cost">€1,221</p>
+								</div>
+							</a>
+
+							<a href="#" class="post__item">
+								<div class="post__name">
+									<h4>ToS Mythic Lootrun by top10 Guild</h4>
+									<span class="post__mode post__mode--sp">SP</span>
+									<span class="post__mode post__mode--ml">ML</span>
+								</div>
+								<div class="post__date">
+									<p>Jan 23, 11:00</p>
+								</div>
+								<div class="post__rate">
+									<div class="post__rate-container">
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--half">
+											<div class="circle__halt--left"></div>
+											<div class="circle__halt--right"></div>
+										</span>
+										<span class="rate__circle rate__circle--empty"></span>
+										<span class="rate__count">(42)</span>
+									</div>
+								</div>
+								<div class="post__profile">
+									<span><img class="post__profile-img" src="img/post-profile.jpeg" alt=""></span>
+									<p class="post__profile-name">antonPVPgod2007</p>
+								</div>
+								<div class="post__price">
+									<p class="post__price-cost">€1,221</p>
+								</div>
+							</a>
+
+							<a href="#" class="post__item">
+								<div class="post__name">
+									<h4>ToS Mythic Lootrun by top10 Guild</h4>
+									<span class="post__mode post__mode--sp">SP</span>
+									<span class="post__mode post__mode--ml">ML</span>
+								</div>
+								<div class="post__date">
+									<p>Jan 23, 11:00</p>
+								</div>
+								<div class="post__rate">
+									<div class="post__rate-container">
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--half">
+											<div class="circle__halt--left"></div>
+											<div class="circle__halt--right"></div>
+										</span>
+										<span class="rate__circle rate__circle--empty"></span>
+										<span class="rate__count">(42)</span>
+									</div>
+								</div>
+								<div class="post__profile">
+									<span><img class="post__profile-img" src="img/post-profile.jpeg" alt=""></span>
+									<p class="post__profile-name">antonPVPgod2007</p>
+								</div>
+								<div class="post__price">
+									<p class="post__price-cost">€1,221</p>
+								</div>
+							</a>
+
+
+							<a href="#" class="post__item">
+								<div class="post__name">
+									<h4>ToS Mythic Lootrun by top10 Guild</h4>
+									<span class="post__mode post__mode--sp">SP</span>
+									<span class="post__mode post__mode--ml">ML</span>
+								</div>
+								<div class="post__date">
+									<p>Jan 23, 11:00</p>
+								</div>
+								<div class="post__rate">
+									<div class="post__rate-container">
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--half">
+											<div class="circle__halt--left"></div>
+											<div class="circle__halt--right"></div>
+										</span>
+										<span class="rate__circle rate__circle--empty"></span>
+										<span class="rate__count">(42)</span>
+									</div>
+								</div>
+								<div class="post__profile">
+									<span><img class="post__profile-img" src="img/post-profile.jpeg" alt=""></span>
+									<p class="post__profile-name">antonPVPgod2007</p>
+								</div>
+								<div class="post__price">
+									<p class="post__price-cost">€1,221</p>
+								</div>
+							</a>
+
+							<a href="#" class="post__item">
+								<div class="post__name">
+									<h4>ToS Mythic Lootrun by top10 Guild</h4>
+									<span class="post__mode post__mode--sp">SP</span>
+									<span class="post__mode post__mode--ml">ML</span>
+								</div>
+								<div class="post__date">
+									<p>Jan 23, 11:00</p>
+								</div>
+								<div class="post__rate">
+									<div class="post__rate-container">
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--half">
+											<div class="circle__halt--left"></div>
+											<div class="circle__halt--right"></div>
+										</span>
+										<span class="rate__circle rate__circle--empty"></span>
+										<span class="rate__count">(42)</span>
+									</div>
+								</div>
+								<div class="post__profile">
+									<span><img class="post__profile-img" src="img/post-profile.jpeg" alt=""></span>
+									<p class="post__profile-name">antonPVPgod2007</p>
+								</div>
+								<div class="post__price">
+									<p class="post__price-cost">€1,221</p>
+								</div>
+							</a>
+
+							<a href="#" class="post__item">
+								<div class="post__name">
+									<h4>ToS Mythic Lootrun by top10 Guild</h4>
+									<span class="post__mode post__mode--sp">SP</span>
+									<span class="post__mode post__mode--ml">ML</span>
+								</div>
+								<div class="post__date">
+									<p>Jan 23, 11:00</p>
+								</div>
+								<div class="post__rate">
+									<div class="post__rate-container">
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--half">
+											<div class="circle__halt--left"></div>
+											<div class="circle__halt--right"></div>
+										</span>
+										<span class="rate__circle rate__circle--empty"></span>
+										<span class="rate__count">(42)</span>
+									</div>
+								</div>
+								<div class="post__profile">
+									<span><img class="post__profile-img" src="img/post-profile.jpeg" alt=""></span>
+									<p class="post__profile-name">antonPVPgod2007</p>
+								</div>
+								<div class="post__price">
+									<p class="post__price-cost">€1,221</p>
+								</div>
+							</a>
+
+							<a href="#" class="post__item">
+								<div class="post__name">
+									<h4>ToS Mythic Lootrun by top10 Guild</h4>
+									<span class="post__mode post__mode--sp">SP</span>
+									<span class="post__mode post__mode--ml">ML</span>
+								</div>
+								<div class="post__date">
+									<p>Jan 23, 11:00</p>
+								</div>
+								<div class="post__rate">
+									<div class="post__rate-container">
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--full"></span>
+										<span class="rate__circle rate__circle--half">
+											<div class="circle__halt--left"></div>
+											<div class="circle__halt--right"></div>
+										</span>
+										<span class="rate__circle rate__circle--empty"></span>
+										<span class="rate__count">(42)</span>
+									</div>
+								</div>
+								<div class="post__profile">
+									<span><img class="post__profile-img" src="img/post-profile.jpeg" alt=""></span>
+									<p class="post__profile-name">antonPVPgod2007</p>
+								</div>
+								<div class="post__price">
+									<p class="post__price-cost">€1,221</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="page__footer">
+					<div class="container--stable">
+						<div class="footer__row">
+							<div class="footer__column">
+								<h4>Legal</h4>
+								<div class="footer__row">
+									<ul class="footer__mnu">
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">User Agreement</a></li>
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">Privacy Policy</a></li>
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">Copyright Policy</a></li>
+									</ul>
+									<ul class="footer__mnu">
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">User Agreement</a></li>
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">Privacy Policy</a></li>
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">Copyright Policy</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer__column">
+								<h4>Support</h4>
+								<div class="footer__row">
+									<ul class="footer__mnu">
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">Contact Us</a></li>
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">Security resolution</a></li>
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">How to Buy</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer__column">
+								<h4>Games</h4>
+								<div class="footer__row">
+									<ul class="footer__mnu">
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">World of Warcraft</a></li>
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">League of Legends</a></li>
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">World of Tanks</a></li>
+									</ul>
+									<ul class="footer__mnu">
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">Heroes of the Storm</a></li>
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">CS:GO</a></li>
+										<li class="footer__mnu-item"><a href="#" class="footer__mnu-link">Dota 2</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer__column footer__column--basis">
+								<h4>Follow us</h4>
+								<div class="footer__mnu">
+									<ul class="footer__social">
+										<li class="social__item"><a href="#" class="social__link">
+											<img src="img/svg/footer_icon_tw.svg" alt="" class="social__img">
+										</a></li>
+										<li class="social__item"><a href="#" class="social__link">
+											<img src="img/svg/footer_icon_vk.svg" alt="" class="social__img">
+										</a></li>
+										<li class="social__item"><a href="#" class="social__link">
+											<img src="img/svg/footer_icon_you.svg" alt="" class="social__img">
+										</a></li>
+										<li class="social__item"><a href="#" class="social__link">
+											<img src="img/svg/footer_icon_fb.svg" alt="" class="social__img">
+										</a></li>
+									</ul>
+									<p class="footer__copy">Boostcamp, 2017</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+	</div>
+
+	<div class="hidden"></div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Load Scripts Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Load Scripts End -->
+
+</body>
+</html>

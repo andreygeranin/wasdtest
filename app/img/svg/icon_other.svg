@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_other</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wow_raids_chat" transform="translate(-30.000000, -750.000000)" fill="#CDCFE2">
+            <g id="Group-18-Copy-2" transform="translate(0.000000, -1.000000)">
+                <g id="Group-25" transform="translate(0.000000, 60.000000)">
+                    <g id="Group-6" transform="translate(0.000000, 171.000000)">
+                        <g id="Group-30-Copy-2" transform="translate(30.000000, 519.000000)">
+                            <path d="M9.26794919,12 L0,12 L0,10 L9.26794919,10 L4.6339746,1.97372056 L6.3660254,0.973720558 L11,9 L15.6339746,0.973720558 L17.3660254,1.97372056 L12.7320508,10 L22,10 L22,12 L12.7320508,12 L17.3660254,20.0262794 L15.6339746,21.0262794 L11,13 L6.3660254,21.0262794 L4.6339746,20.0262794 L9.26794919,12 Z" id="icon_other"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
