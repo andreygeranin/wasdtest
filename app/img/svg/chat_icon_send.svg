@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="84px" viewBox="0 0 85 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>chat_icon_send</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.1%" y="-15.0%" width="118.2%" height="130.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0784313725   0 0 0 0 0.0784313725   0 0 0 0 0.2  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="chat" transform="translate(-625.000000, -373.000000)" fill="#B4B3D0">
+            <g id="Group" filter="url(#filter-1)" transform="translate(40.000000, 40.000000)">
+                <g id="Group-8" transform="translate(221.000000, 350.000000)">
+                    <path d="M401.447214,15.7236068 L418.211146,24.1055728 L418.211146,24.1055728 C418.705124,24.3525621 418.905348,24.9532351 418.658359,25.4472136 C418.561596,25.640741 418.404673,25.7976635 418.211146,25.8944272 L401.447214,34.2763932 L401.447214,34.2763932 C400.953235,34.5233825 400.352562,34.3231581 400.105573,33.8291796 C400.036145,33.6903242 400,33.5372111 400,33.381966 L400,27.8471271 L400,27.8471271 C400,27.3582879 400.353413,26.9410978 400.835601,26.8607332 L409.040818,25.493197 L409.040818,25.493197 C409.313203,25.4477994 409.497213,25.1901857 409.451816,24.9178005 C409.416693,24.707064 409.251555,24.5419258 409.040818,24.506803 L400.835601,23.1392668 L400.835601,23.1392668 C400.353413,23.0589022 400,22.6417121 400,22.1528729 L400,16.618034 L400,16.618034 C400,16.0657492 400.447715,15.618034 401,15.618034 C401.155245,15.618034 401.308358,15.6541791 401.447214,15.7236068 Z" id="chat_icon_send"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
