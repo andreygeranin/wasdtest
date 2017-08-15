@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0949d1ef-9736-4bfb-b443-541bf135fba2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/header.min.css" afterPath="$PROJECT_DIR$/app/css/header.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/header.sass" afterPath="$PROJECT_DIR$/sass/header.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +25,7 @@
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="260">
-                  <caret line="674" column="88" lean-forward="true" selection-start-line="674" selection-start-column="88" selection-end-line="674" selection-end-column="88" />
+                  <caret line="674" column="88" lean-forward="false" selection-start-line="674" selection-start-column="88" selection-end-line="674" selection-end-column="88" />
                   <folding />
                 </state>
               </provider>
@@ -83,7 +79,7 @@
             <entry file="file://$PROJECT_DIR$/sass/header.sass">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="306">
-                  <caret line="561" column="16" lean-forward="true" selection-start-line="561" selection-start-column="16" selection-end-line="561" selection-end-column="16" />
+                  <caret line="561" column="16" lean-forward="false" selection-start-line="561" selection-start-column="16" selection-end-line="561" selection-end-column="16" />
                   <folding>
                     <marker date="1502783294774" expanded="true" signature="8426:8520" ph="..." />
                   </folding>
@@ -95,7 +91,7 @@
             <entry file="file://$PROJECT_DIR$/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="80">
-                  <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+                  <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -105,7 +101,7 @@
             <entry file="file://$PROJECT_DIR$/sass/_media.sass">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="380">
-                  <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+                  <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -321,12 +317,12 @@
       <workItem from="1502705305504" duration="109000" />
       <workItem from="1502705572771" duration="15899000" />
       <workItem from="1502723184518" duration="5847000" />
-      <workItem from="1502782188519" duration="1986000" />
+      <workItem from="1502782188519" duration="2182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50137000" />
+    <option name="totallyTimeSpent" value="50333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -694,7 +690,7 @@
     <entry file="file://$PROJECT_DIR$/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -702,7 +698,7 @@
     <entry file="file://$PROJECT_DIR$/sass/_media.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -726,7 +722,7 @@
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="674" column="88" lean-forward="true" selection-start-line="674" selection-start-column="88" selection-end-line="674" selection-end-column="88" />
+          <caret line="674" column="88" lean-forward="false" selection-start-line="674" selection-start-column="88" selection-end-line="674" selection-end-column="88" />
           <folding />
         </state>
       </provider>
@@ -734,7 +730,7 @@
     <entry file="file://$PROJECT_DIR$/sass/header.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="561" column="16" lean-forward="true" selection-start-line="561" selection-start-column="16" selection-end-line="561" selection-end-column="16" />
+          <caret line="561" column="16" lean-forward="false" selection-start-line="561" selection-start-column="16" selection-end-line="561" selection-end-column="16" />
           <folding>
             <marker date="1502783294774" expanded="true" signature="8426:8520" ph="..." />
           </folding>
